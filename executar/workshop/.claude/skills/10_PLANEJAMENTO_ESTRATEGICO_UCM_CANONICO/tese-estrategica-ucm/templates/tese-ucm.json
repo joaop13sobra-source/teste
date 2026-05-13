@@ -1,0 +1,36 @@
+{
+  "cliente": "HS Prevent",
+  "produto": "Onboarding antifraude",
+  "objetivo": "Gerar conversas com decisores de risco e produto",
+  "canal_conversao": "LP com formulario",
+  "batalha": "Combater a falsa economia do onboarding manual que deixa fraude e abandono corroerem margem.",
+  "problemas": [
+    {
+      "nome": "Fraude invisivel no cadastro",
+      "impacto": "Perda financeira e retrabalho operacional",
+      "voz_cliente": "A fraude aparece quando o cliente bom ja desistiu",
+      "funil": "MOFU"
+    }
+  ],
+  "personas": [
+    {
+      "nome": "Diretor de risco",
+      "papel": "decisor economico",
+      "dores": ["Fraude", "falso positivo", "pressao por margem"],
+      "objecoes": ["Integracao complexa", "risco de bloquear cliente bom"],
+      "provas": ["Case", "reducao de falso positivo", "tempo de implantacao"],
+      "cta": "Diagnosticar gargalo de onboarding"
+    }
+  ],
+  "proposta_valor": "Para diretor de risco, que sofre com fraude e falso positivo no onboarding, a solucao entrega aprovacao mais segura por meio de score e verificacao inteligente, sem travar cliente bom, comprovado por cases e reducao de perda.",
+  "inimigo": "Onboarding manual tratado como economia, mas que escala fraude e abandono.",
+  "narrativa": {
+    "contexto": "Aquisição digital aumentou o volume de cadastros.",
+    "tensao": "O processo manual não distingue risco real de cliente legítimo rápido o suficiente.",
+    "inimigo": "A falsa segurança do processo antigo.",
+    "nova_crenca": "Onboarding precisa equilibrar conversão e risco em tempo real.",
+    "mecanismo": "Score antifraude e validação inteligente.",
+    "prova": "Cases e métricas de redução de falso positivo.",
+    "convite": "Conversar com especialista para mapear perdas invisíveis."
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "pergunta_negocio": "Definir promessa defensável e baseline criativo antes do ciclo Q2.",
+  "contexto": {
+    "cliente": "Cliente exemplo",
+    "segmento": "Onboarding digital B2B",
+    "geografia": "Brasil",
+    "produto_foco": "Antifraude em cadastro",
+    "ticket": "Enterprise mensal",
+    "icp": "Fintechs médias",
+    "canais": ["Meta", "LinkedIn", "Search"],
+    "objetivo_aquisicao": "MQL com demo"
+  },
+  "concorrentes": [
+    {
+      "player": "Concorrente A",
+      "tipo": "direto",
+      "anuncia": true,
+      "formato": "video + carrossel",
+      "mensagem": "Menos fricção no cadastro",
+      "oferta": "Trial 14 dias",
+      "prova": "Logo wall",
+      "fortes": "Volume de criativos",
+      "fracos": "Prova numérica fraca",
+      "gap": "Ângulo de perda financeira pouco explorado",
+      "evidencia": "https://example.com/library-a"
+    },
+    {
+      "player": "Substituto B",
+      "tipo": "substituto",
+      "anuncia": false,
+      "formato": "orgânico/brand",
+      "mensagem": "Suite genérica de KYC",
+      "oferta": "Consultoria + software",
+      "prova": "Cases setoriais",
+      "fortes": "Marca",
+      "fracos": "Mensagem genérica",
+      "gap": "Contraste especialista vs generalista",
+      "evidencia": "https://example.com/site-b"
+    }
+  ],
+  "padroes": [
+    "Criativos de dor em onboarding com CTA para demo",
+    "LP com prova social na primeira dobra"
+  ],
+  "ruidos": [
+    "Solução completa",
+    "Inovação de ponta"
+  ],
+  "oportunidades": [
+    {
+      "nome": "Hook de margem corroída por fraude",
+      "evidencia": "Poucos anúncios citam P&L explicitamente",
+      "implicacao": "Testar 3 hooks financeiros no ciclo 1"
+    }
+  ],
+  "riscos": [
+    {
+      "nome": "Promessa de fricção zero sem prova",
+      "evidencia": "Benchmark mostra claims amplos",
+      "mitigacao": "Travar linguagem no DEOC e pedir números"
+    }
+  ],
+  "baseline": "Estrutura de prova social + demo como CTA principal",
+  "diferenciacao": "Especialização em perdas invisíveis e falsos positivos",
+  "implicacoes": {
+    "deoc": "Tese de inimigo = processo manual disfarçado de economia",
+    "midia": "Priorizar canais com intenção e remarketing após prova",
+    "lp": "Primeira dobra com prova quantitativa quando disponível",
+    "criativos": "UGC + demo curta com métrica de negócio"
+  }
+}

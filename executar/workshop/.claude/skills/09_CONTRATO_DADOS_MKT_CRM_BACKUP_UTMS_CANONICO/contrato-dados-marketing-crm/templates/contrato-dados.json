@@ -1,0 +1,56 @@
+{
+  "cliente": "HS Prevent",
+  "contrato": "marketing-crm-backup-utms",
+  "campos": [
+    {
+      "campo": "lead_id",
+      "tipo": "string",
+      "fonte": "conversion",
+      "camada": "backup_crm",
+      "obrigatorio": true,
+      "regra": "unique_per_lead",
+      "exemplo": "8c6f4b2a",
+      "descricao": "Identificador unico do lead"
+    },
+    {
+      "campo": "first_utm_source",
+      "tipo": "string",
+      "fonte": "cookie_form",
+      "camada": "form_backup_crm",
+      "obrigatorio": true,
+      "regra": "write_once",
+      "exemplo": "linkedin",
+      "descricao": "Primeira fonte conhecida"
+    },
+    {
+      "campo": "last_utm_source",
+      "tipo": "string",
+      "fonte": "cookie_form",
+      "camada": "form_backup_crm",
+      "obrigatorio": true,
+      "regra": "update_on_conversion",
+      "exemplo": "google",
+      "descricao": "Ultima fonte conhecida"
+    },
+    {
+      "campo": "v4_creative_id",
+      "tipo": "string",
+      "fonte": "url_form",
+      "camada": "form_backup_crm",
+      "obrigatorio": true,
+      "regra": "per_conversion",
+      "exemplo": "crt_demo_v01",
+      "descricao": "ID canonico do criativo"
+    }
+  ],
+  "criterios_n2": {
+    "backup_padronizado": true,
+    "utms_chegam_conversao": true,
+    "ids_chegam_planilha": true,
+    "crm_recebe_origem_ou_match": false,
+    "first_last_touch_preservados": true,
+    "dicionario_dados_existe": true,
+    "teste_ponta_a_ponta_existe": false,
+    "analise_pos_campanha_possivel": false
+  }
+}

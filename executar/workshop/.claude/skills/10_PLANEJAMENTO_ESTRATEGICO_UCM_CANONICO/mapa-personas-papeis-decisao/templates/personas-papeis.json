@@ -1,0 +1,34 @@
+{
+  "cliente": "HS Prevent",
+  "oferta": "Onboarding antifraude",
+  "segmento": "Fintechs e serviços digitais",
+  "tipo_compra": "B2B com comitê técnico e econômico",
+  "personas": [
+    {
+      "persona": "Diretor de risco",
+      "papel": "decisor econômico",
+      "rotina": "Responde por perda, fraude, falso positivo e margem",
+      "dores": ["Fraude invisível", "Falso positivo", "Pressão por margem"],
+      "desejos": ["Reduzir perda", "Aumentar aprovação segura"],
+      "medos": ["Bloquear cliente bom", "Projeto complexo"],
+      "objecoes": ["Integração pode demorar", "Não posso piorar conversão"],
+      "linguagem": ["perda", "risco", "margem", "aprovação"],
+      "provas": ["case", "redução de falso positivo", "tempo de implantação"],
+      "cta": "Diagnosticar perdas invisíveis",
+      "canal": "LinkedIn e search"
+    },
+    {
+      "persona": "Líder de produto",
+      "papel": "influenciador",
+      "rotina": "Equilibra experiência, conversão e segurança no onboarding",
+      "dores": ["Fricção no cadastro", "Abandono", "Repriorização técnica"],
+      "desejos": ["Melhorar UX sem abrir risco"],
+      "medos": ["Criar gargalo no roadmap"],
+      "objecoes": ["Precisa ser simples para o time técnico"],
+      "linguagem": ["experiência", "conversão", "fluxo", "roadmap"],
+      "provas": ["demo", "API docs", "benchmark de conversão"],
+      "cta": "Ver fluxo de integração",
+      "canal": "LinkedIn e remarketing"
+    }
+  ]
+}

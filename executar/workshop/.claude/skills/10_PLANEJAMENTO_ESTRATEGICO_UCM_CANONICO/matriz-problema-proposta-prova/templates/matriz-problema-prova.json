@@ -1,0 +1,43 @@
+{
+  "cliente": "HS Prevent",
+  "oferta": "Onboarding antifraude",
+  "fonte": "Discovery + vendas + benchmark",
+  "problemas": [
+    {
+      "problema": "Fraude invisível no cadastro",
+      "impacto": "Perda financeira e retrabalho operacional",
+      "voz_cliente": "A fraude aparece quando o cliente bom já desistiu",
+      "persona": "Diretor de risco",
+      "stage": "MOFU",
+      "proposta": "Aprovação mais segura sem travar cliente legítimo",
+      "mecanismo": "Score antifraude e validação inteligente",
+      "promessa": "Reduzir perdas invisíveis no onboarding",
+      "objecao": "Não posso piorar conversão",
+      "prova": "Case de redução de falso positivo",
+      "status_prova": "parcial",
+      "risco": "médio",
+      "impacto_score": 5,
+      "frequencia_score": 4,
+      "evidencia_score": 3,
+      "risco_score": 2
+    },
+    {
+      "problema": "Fricção derruba conversão de cliente legítimo",
+      "impacto": "Abandono e CAC desperdiçado",
+      "voz_cliente": "O usuário bom some no cadastro",
+      "persona": "Líder de produto",
+      "stage": "BOFU",
+      "proposta": "Onboarding com menos fricção e mais controle",
+      "mecanismo": "Verificação adaptativa por risco",
+      "promessa": "Aumentar aprovação sem abrir brecha para fraude",
+      "objecao": "Pode virar projeto técnico longo",
+      "prova": "",
+      "status_prova": "ausente",
+      "risco": "alto",
+      "impacto_score": 4,
+      "frequencia_score": 4,
+      "evidencia_score": 1,
+      "risco_score": 4
+    }
+  ]
+}
